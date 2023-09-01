@@ -9,7 +9,7 @@ This repository features a blend of front-end projects alongside contributions f
 ### Construction
 **Project Description:**
 
-This is a responsive web design landing page project created using only HTML and CSS. It's part of an NTI (National Telecommunication Institute) project, showcasing the application of fundamental web development skills.
+This is a responsive web design landing page project created using only HTML and CSS. It's part of an NTI (National Telecommunication Institute) Web Design Level 1, showcasing the application of fundamental web development skills.
 
 **Visit the Project:**
 
