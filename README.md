@@ -19,7 +19,7 @@ Explore the live version of the project here: <a href="https://mahmouddwidar.git
 ### Mint
 **Project Description:**
 
-This is a responsive web design landing page project created using only HTML and CSS. It's a Landing page template of graphberry.com and you can fint it here: <a href="https://www.graphberry.com/item/mint-minimal-portfolio-psd-template" target="_blank">Mint Template</a>
+This is a responsive web design landing page project created using only HTML and CSS. It's a Landing page template of graphberry.com and you can find it here: <a href="https://www.graphberry.com/item/mint-minimal-portfolio-psd-template" target="_blank">Mint Template</a>
 
 **Visit the Project:**
 
