@@ -16,11 +16,12 @@ async function checkWeather(city) {
         weatherInfo.style.display = 'none';
     } else {
         document.querySelector('.city').innerHTML = data.name;
-        document.querySelector('.temp').innerHTML = Math.round(data.main.temp) + '°C';
+        document.querySelector('.temp').innerHTML = Math.round(data.main.temp) + '°c';
         document.querySelector('.humditiy').innerHTML = data.main.humidity + '%';
         document.querySelector('.wind').innerHTML = data.wind.speed + 'Km/h';
-        weatherIcon.src = `./imgs/icons/${data.weather[0].main}.png` // Change weather icon on city current state
+        weatherIcon.src = `./imgs/icons/${data.weather[0].main.toLowerCase()}.png` // Change weather icon on city current status
         weatherInfo.style.display = 'block'
+        errorInfo.style.display = 'none'
     }
 
 }
