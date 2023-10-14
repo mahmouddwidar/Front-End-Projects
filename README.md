@@ -44,4 +44,4 @@ This is a responsive web design landing page project created using only HTML and
 
 **Visit the Project:**
 
-Explore the live version of the project here: [Construction - Landing Page](https://mahmouddwidar.github.io/Front-End-Projects/Accessories/)
+Explore the live version of the project here: [Accessories - Landing Page](https://mahmouddwidar.github.io/Front-End-Projects/Accessories/)
