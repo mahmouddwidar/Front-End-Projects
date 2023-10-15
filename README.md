@@ -7,6 +7,7 @@ This repository features a blend of front-end projects alongside contributions f
 - [Mint](#mint)
 - [Weather App](#weather-app)
 - [Accessories - Landing Page](#accessories)
+- [AI Image Generator](#ai-image-generator)
 
 ## Projects
 
@@ -45,3 +46,12 @@ This is a responsive web design landing page project created using only HTML and
 **Visit the Project:**
 
 Explore the live version of the project here: [Accessories - Landing Page](https://mahmouddwidar.github.io/Front-End-Projects/Accessories/)
+
+### AI Image Generator
+**Project Description:**
+
+This web application leverages the OpenAI API to generate AI-generated photos based on user prompts. Users can specify a prompt and the number of images they want to generate, and the app will retrieve and display the AI-generated images in a gallery format. The project is written in JavaScript and utilizes HTML and CSS for the front-end interface. It allows users to easily access and download the generated images.
+
+**Visit the Project:**
+
+Explore the live version of the project here: [AI Image Generator](https://mahmouddwidar.github.io/Front-End-Projects/AI%20Image%20Generator/)
