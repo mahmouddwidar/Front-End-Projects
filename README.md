@@ -6,6 +6,7 @@ This repository features a blend of front-end projects alongside contributions f
 - [Construction](#construction)
 - [Mint](#mint)
 - [Weather App](#weather-app)
+- [Accessories - Landing Page](#accessories)
 
 ## Projects
 
@@ -35,3 +36,12 @@ This web application is a Weather App that allows users to check the current wea
 **Visit the Project:**
 
 Explore the live version of the project here: [Weather App](https://mahmouddwidar.github.io/Front-End-Projects/Weather%20App/)
+
+### Accessories
+**Project Description:**
+
+This is a responsive web design landing page project created using only HTML and CSS. It's part of an NTI (National Telecommunication Institute) Web Design Level 1, showcasing the application of fundamental web development skills.
+
+**Visit the Project:**
+
+Explore the live version of the project here: [Accessories - Landing Page](https://mahmouddwidar.github.io/Front-End-Projects/Accessories/)
