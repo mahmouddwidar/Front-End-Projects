@@ -8,6 +8,7 @@ This repository features a blend of front-end projects alongside contributions f
 - [Weather App](#weather-app)
 - [Accessories - Landing Page](#accessories)
 - [AI Image Generator](#ai-image-generator)
+- [To-do List](#to-do-list)
 
 ## Projects
 
@@ -55,3 +56,12 @@ This web application leverages the OpenAI API to generate AI-generated photos ba
 **Visit the Project:**
 
 Explore the live version of the project here: [AI Image Generator](https://mahmouddwidar.github.io/Front-End-Projects/AI%20Image%20Generator/)
+
+### To-do List
+**Project Description:**
+
+This project is a straightforward, yet effective to-do list web application implemented in JavaScript. It allows users to add, remove, and mark tasks as completed. The application offers a clean and minimalistic interface for managing tasks, making it easy for users to keep track of their to-do items.
+
+**Visit the Project:**
+
+Explore the live version of the project here: [To-do List](https://mahmouddwidar.github.io/Front-End-Projects/Todo%20App/)
