@@ -21,6 +21,8 @@ This is a responsive web design landing page project created using only HTML and
 
 Explore the live version of the project here: [Construction - Landing Page](https://mahmouddwidar.github.io/Front-End-Projects/Construction/)
 
+---
+
 ### Mint
 **Project Description:**
 
@@ -29,6 +31,8 @@ This is a responsive web design landing page project created using only HTML and
 **Visit the Project:**
 
 Explore the live version of the project here: [Mint - Landing Page](https://mahmouddwidar.github.io/Front-End-Projects/Mint/)
+
+---
 
 ### Weather App
 **Project Description:**
@@ -39,6 +43,8 @@ This web application is a Weather App that allows users to check the current wea
 
 Explore the live version of the project here: [Weather App](https://mahmouddwidar.github.io/Front-End-Projects/Weather%20App/)
 
+---
+
 ### Accessories
 **Project Description:**
 
@@ -48,6 +54,8 @@ This is a responsive web design landing page project created using only HTML and
 
 Explore the live version of the project here: [Accessories - Landing Page](https://mahmouddwidar.github.io/Front-End-Projects/Accessories/)
 
+---
+
 ### AI Image Generator
 **Project Description:**
 
@@ -56,6 +64,8 @@ This web application leverages the OpenAI API to generate AI-generated photos ba
 **Visit the Project:**
 
 Explore the live version of the project here: [AI Image Generator](https://mahmouddwidar.github.io/Front-End-Projects/AI%20Image%20Generator/)
+
+---
 
 ### To-do List
 **Project Description:**
