@@ -4,6 +4,7 @@ This repository features a blend of front-end projects alongside contributions f
 
 ## Navigate Projects
 - [Blue Bonk Website](#blue-bonk-website)
+- [Payzina Website](#payzina-website)
 - [Construction](#construction)
 - [Mint](#mint)
 - [Weather App](#weather-app)
@@ -20,6 +21,16 @@ This website was created as a freelance project on Khamsat. Blue Bonk is a fun a
 - **Visit the Project:**
 
 Explore the live version of the project here: [Blue Bonk](https://www.bluebonk.com/)
+
+---
+
+- ### Payzina Website
+
+This website was created as a freelance project on Khamsat. Payzina is a payment company, and the website serves as a portfolio showcasing their services. The website is fully responsive and provides detailed information about the company's offerings.
+
+- **Visit the Project:**
+
+Explore the live version of the project here: [Payzina](https://payzina.vercel.app/)
 
 ---
 
@@ -65,7 +76,7 @@ Explore the live version of the project here: [Accessories - Landing Page](https
 
 - ### AI Image Generator
 
-- This web application leverages the OpenAI API to generate AI-generated photos based on user prompts. Users can specify a prompt and the number of images they want to generate, and the app will retrieve and display the AI-generated images in a gallery format. The project is written in JavaScript and utilizes HTML and CSS for the front-end interface. It allows users to easily access and download the generated images.
+This web application leverages the OpenAI API to generate AI-generated photos based on user prompts. Users can specify a prompt and the number of images they want to generate, and the app will retrieve and display the AI-generated images in a gallery format. The project is written in JavaScript and utilizes HTML and CSS for the front-end interface. It allows users to easily access and download the generated images.
 
 - **Visit the Project:**
 
