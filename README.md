@@ -3,6 +3,7 @@
 This repository features a blend of front-end projects alongside contributions from NTI Web Design Level 1.
 
 ## Navigate Projects
+- [Blue Bonk Website](#blue-bonk-website)
 - [Construction](#construction)
 - [Mint](#mint)
 - [Weather App](#weather-app)
@@ -11,6 +12,17 @@ This repository features a blend of front-end projects alongside contributions f
 - [To-do List](#to-do-list)
 
 ## Projects
+
+### Blue Bonk Website
+**Project Description:**
+
+This website was created as a freelance project on Khamsat. Blue Bonk is a fun and vibrant meme token on the TON blockchain, inspired by the legendary Bonk but with a refreshing blue twist. The website is fully responsive and serves as a portfolio about Blue Bonk.
+
+**Visit the Project:**
+
+Explore the live version of the project here: [Blue Bonk](https://www.bluebonk.com/)
+
+---
 
 ### Construction
 **Project Description:**
