@@ -1,6 +1,6 @@
 # Front-End-Projects
 
-This repository features a blend of front-end projects alongside contributions from NTI Web Design Level 1.
+This repository features a blend of front-end projects alongside contributions from NTI Web Design Level 1 and Freelancing Projects.
 
 ## Navigate Projects
 - [Blue Bonk Website](#blue-bonk-website)
