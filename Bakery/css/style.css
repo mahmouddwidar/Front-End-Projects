@@ -1,0 +1,395 @@
+/* 
+---------------------------------------------
+Table of contents
+---------------------------------------------
+01. Global styles
+02. Hero Section
+03. About && Location Sections
+04. Our Baking Section 
+05. Contact Section 
+06. Footer
+--------------------------------------------- 
+*/
+
+/* 
+---------------------------------------------
+Global styles
+--------------------------------------------- 
+*/
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --main-color: #8E7754;
+    --secondary-color: #e0d7c6;
+    --muted-color: rgba(150, 150, 150, 1);
+    --section-bg: #f8f8f8;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* 
+---------------------------------------------
+Hero Section
+--------------------------------------------- 
+*/
+#hero {
+    min-height: 100vh;
+    background: url('../imgs/hero-bg.jpg') no-repeat center center/cover;
+    position: relative;
+    color: #FFF;
+    margin-bottom: 50px;
+}
+
+#hero nav,
+#hero nav ul,
+#hero .btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#hero nav {
+    padding: 20px 40px;
+}
+
+#hero nav img {
+    width: 15%;
+}
+
+#hero nav ul {
+    list-style: none;
+    width: 40%;
+    font-size: 1.3rem;
+
+    & li {
+        cursor: pointer;
+        position: relative;
+
+        & a {
+            text-decoration: none;
+            color: #FFF;
+        }
+    }
+}
+
+#hero nav ul li::before {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    background-color: var(--secondary-color);
+    bottom: -11px;
+    left: 0;
+    transition: all .3s ease;
+}
+
+#hero nav ul li:hover::before {
+    width: 110%;
+}
+
+#hero .contents {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding-bottom: 150px;
+
+    & h1 {
+        font-size: 4rem;
+        font-weight: 400;
+        margin-bottom: 15px;
+    }
+
+    & p {
+        margin-bottom: 20px;
+        font-size: 1.3rem;
+        font-weight: 100;
+    }
+}
+
+#hero .btns {
+    width: 38%;
+    margin: 0px auto;
+}
+
+#hero .btns a {
+    background-color: var(--main-color);
+    padding: 15px 28px;
+    margin-top: 20px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #FFF;
+    font-weight: 500;
+    border-radius: 5%;
+    border: 2px solid var(--main-color);
+    transition: all .15s linear;
+
+    &:hover {
+        background-color: transparent;
+        border-color: #FFF;
+    }
+}
+
+#hero .btns a:last-of-type {
+    background: transparent;
+    border: 2px solid #FFF;
+    transition: all .15s linear;
+
+    &:hover {
+        background-color: var(--main-color);
+        border-color: var(--main-color);
+    }
+}
+
+/* 
+---------------------------------------------
+About && Location Sections
+--------------------------------------------- 
+*/
+
+#about,
+#location {
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#location {
+    background: var(--section-bg);
+}
+
+#about div:first-child,
+#location div:last-child {
+    width: 47%;
+
+    & img {
+        width: 100%;
+    }
+}
+
+#about .content,
+#location .content {
+    width: 47%;
+    padding-top: 50px;
+
+    & p {
+        color: var(--muted-color);
+        line-height: 2;
+    }
+}
+
+#location .content p:first-of-type {
+    margin-bottom: 30px;
+}
+
+#about .content h2,
+#location .content h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+
+    &+p {
+        margin-bottom: 20px;
+    }
+}
+
+#about .content ul li {
+    list-style: none;
+    color: var(--muted-color);
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    & img {
+        width: 8%;
+        margin-right: 10px;
+        border: 0.005px solid var(--secondary-color);
+        border-radius: 50%;
+    }
+}
+
+/* 
+---------------------------------------------
+Our Baking Section 
+--------------------------------------------- 
+*/
+
+#our-baking {
+    padding: 80px;
+    text-align: center;
+    padding-bottom: 200px;
+}
+
+#our-baking div:first-child h2 {
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+#our-baking div:first-child p {
+    margin-top: 28px;
+    margin-bottom: 60px;
+    color: var(--muted-color);
+}
+
+#our-baking div:last-child {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    & figure {
+        & img {
+            width: 100%;
+        }
+
+        width: calc((100%/3) - 30px);
+    }
+}
+
+#our-baking div:last-child figure figcaption h3 {
+    font-weight: 400;
+    font-size: 1.4rem;
+    margin: 20px 0px 25px 0px;
+}
+
+#our-baking div:last-child figure figcaption p {
+    color: var(--muted-color);
+    line-height: 1.8;
+}
+
+/* 
+---------------------------------------------
+Contact Section 
+--------------------------------------------- 
+*/
+
+#contact {
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--section-bg);
+}
+
+#contact .content,
+#contact .map {
+    width: 47%;
+}
+
+#contact .content h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+#contact .content p {
+    color: var(--muted-color);
+}
+
+#contact .content .small-title {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#contact .content ul li {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 25px;
+    
+    & a {
+        text-decoration: none;
+        color: var(--muted-color);
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+#contact .content ul li img {
+    width: 7%;
+    background: var(--main-color);
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* 
+---------------------------------------------
+Footer 
+--------------------------------------------- 
+*/
+
+footer .top {
+    padding: 80px;
+    padding-bottom: 300px;
+    background: #403D38;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    & div {
+        width: calc((100%/4) - 20px);
+        & hr {
+            margin: 10px 0px;
+        }
+    }
+}
+
+footer .top div h4 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+footer .top div p {
+    color: var(--muted-color);
+    line-height: 1.8;
+}
+
+footer .top div:first-child p:last-child {
+    margin-top: 30px;
+}
+
+footer .top div:last-child div {
+    background: url('../imgs/contact-details-map.png') no-repeat center center/cover;
+    width: 100%;
+}
+
+/* start bottom part */
+
+footer .bottom {
+    background: #353330;
+    padding-top: 50px;
+    padding-bottom: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    & p {
+        color: var(--muted-color);
+        margin-top: 11px;
+        font-size: .9rem;
+    }
+}
+
+footer .bottom div div {
+    margin-top: 30px;
+    & img {
+        width: 3%;
+        background: #403D38;
+        border-radius: 50%;
+    }
+}
